@@ -6,8 +6,3 @@ dependencies {
     compile project(":components:users")
     compile "com.netflix.hystrix:hystrix-javanica:1.5.18"
 }
-
-bootRun.environment([
-        "management.endpoint.health.show-details": "always",
-
-])
